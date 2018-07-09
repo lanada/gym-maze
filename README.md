@@ -1,3 +1,11 @@
+# lanada_gym-maze 
+
+This repository was folked from [tuzzer/gym-maze](https://github.com/tuzzer/gym-maze) repo. 
+There was a minor error when installation, so we fixed it.
+
+you can refer below explanations about how to install and how use it. thanks. 
+
+
 # gym-maze
 
 A simple 2D maze environment where an agent (blue dot) finds its way from the top left corner (blue square) to the goal at the bottom right corner (red square). 
