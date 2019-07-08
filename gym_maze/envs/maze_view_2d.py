@@ -48,7 +48,7 @@ class MazeView2D:
         self.background.fill((255, 255, 255))
 
         # Create a layer for the maze
-        self.maze_layer = pygame.Surface(self.screen.get_size()).convert_alpha()
+        self.maze_layer = pygame.Surface(self.screen.get_size(), pygame.SRCALPHA) #.convert_alpha()
         self.maze_layer.fill((0, 0, 0, 0,))
 
         # show the maze
